@@ -5,10 +5,10 @@
 potber-auth is a semi-compliant OAuth authorization service built with <a href="https://kit.svelte.dev" target="_blank">svelte</a>. It provides clients with an API for authenticating and authorizing users on the german `forum.mods.de` board. The API is easy to use and follows the OAuth specification, albeit with limited functionality and compliance. The live service can be found at <a href="https://auth.potber.de" target="_blank">auth.potber.de</a>. Consuming apps needs to be allowlisted first (more on that below).
 </p>
 
-![Production Builds](https://github.com/spuxx1701/potber-auth/actions/workflows/production.yml/badge.svg)
-![Staging Builds](https://github.com/spuxx1701/potber-auth/actions/workflows/staging.yml/badge.svg)
-![Latest Release](https://img.shields.io/github/v/release/spuxx1701/potber-auth)
-![License](https://img.shields.io/github/license/spuxx1701/potber-auth)
+![Production Builds](https://github.com/spuxx-dev/potber-auth/actions/workflows/production.yml/badge.svg)
+![Staging Builds](https://github.com/spuxx-dev/potber-auth/actions/workflows/staging.yml/badge.svg)
+![Latest Release](https://img.shields.io/github/v/release/spuxx-dev/potber-auth)
+![License](https://img.shields.io/github/license/spuxx-dev/potber-auth)
 
 <!-- vscode-markdown-toc -->
 
@@ -119,7 +119,7 @@ Any (optional) parameters [mentioned by the OAuth specification](https://datatra
 Start by checking out this repository locally and installing dependencies:
 
 ```bash
-git clone https://github.com/spuxx1701/potber-auth.git
+git clone https://github.com/spuxx-dev/potber-auth.git
 cd potber-auth
 npm install
 ```

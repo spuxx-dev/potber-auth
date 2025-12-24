@@ -23,5 +23,10 @@ export const clients: App.Client[] = [
 		name: 'bbdb',
 		id: 'b2c97fa9-3f0e-482f-bd9f-4dd9ad746a68',
 		allowedRedirectUris: ['http://localhost:8000/auth', 'https://bbdb.jomx.net/auth']
+	},
+	{
+		name: 'imgpot',
+		id: '1b59979e-e95f-4402-85e6-7c0ac509f1c7',
+		allowedRedirectUris: ['http://localhost:3000/auth/callback', 'https://imgpot.de/auth/callback']
 	}
 ];

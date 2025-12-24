@@ -29,7 +29,7 @@
 	}
 </script>
 
-<span class={`backdrop ${state.status}`} />
+<span class={`backdrop ${state.status}`}></span>
 <div class={`login-container`}>
 	<div class="upper-section">
 		{#if session && accessToken}

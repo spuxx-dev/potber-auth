@@ -4,16 +4,16 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
-updates:
-  - package-ecosystem: 'npm' # See documentation for possible values
-    directory: '/' # Location of package manifests
-    schedule:
-      interval: 'weekly'
-    automerge: true
-    target-branch: 'main'
-    labels:
-      - 'dependencies'
-      - 'automerge'
-    ignore:
-      - dependency-name: '*'
-        update-types: ['version-update:semver-major']
+updates: []
+#   - package-ecosystem: 'npm' # See documentation for possible values
+#    directory: '/' # Location of package manifests
+#    schedule:
+#      interval: 'weekly'
+#    automerge: true
+#    target-branch: 'main'
+#    labels:
+#      - 'dependencies'
+#      - 'automerge'
+#    ignore:
+#      - dependency-name: '*'
+#        update-types: ['version-update:semver-major']
